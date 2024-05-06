@@ -6,6 +6,7 @@ function App() {
         <>
       
         <NavBar/>
+        <div>hello</div>
         </>
       );
      
