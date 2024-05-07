@@ -4,7 +4,7 @@ import HomeView from '../index/index';
 function HomePage() {
   return(
   <HomeView/>
-);
+  );
 }
 
 export default HomePage;

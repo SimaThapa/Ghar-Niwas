@@ -5,7 +5,7 @@ import Slider from "react-slick";
 function ServiceList() {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -40,12 +40,12 @@ function ServiceList() {
   };
  return(
   <>
-  <div style={{display:"flex" }}>
-  <Slider {...settings}>
-    <ServiceCard/>
-    <ServiceCard/>
-    <ServiceCard/>
-  </Slider>
+  <div style={{marginTop:"2rem",maginButtom:"2rem"}}>
+    <Slider {...settings}>
+      <ServiceCard/>
+      <ServiceCard/>
+      <ServiceCard/>
+    </Slider>
   </div>
   </>
  )

@@ -4,8 +4,8 @@ import PremiumListing from '../../components/premiumListing/premiumListingServic
 function HomeView(){
     return(
         <>
-         <Box>
-            <div>
+         <Box component="section">
+            <div >
                 <PremiumListing/>
             </div>
          </Box>
